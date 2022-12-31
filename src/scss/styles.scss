@@ -1,3 +1,8 @@
+// BASE
+@forward './base/base';
+// COMPONENTS
+@forward './components/card';
+// TAILWIND CSS
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

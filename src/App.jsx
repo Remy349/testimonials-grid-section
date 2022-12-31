@@ -1,7 +1,14 @@
 import React from 'react'
+import { Card } from './components/Card'
+
+import { danielImg } from './assets/img/images'
 
 function App() {
-  return <h1 className='text-4xl font-bold'>Testimonials Grid Section</h1>
+  return (
+    <main className='font-barlow mx-6 text-white'>
+      <Card avatarImg={danielImg} cardItem='card1' />
+    </main>
+  )
 }
 
 export default App
