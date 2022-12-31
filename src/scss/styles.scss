@@ -1,8 +1,41 @@
-// BASE
-@forward './base/base';
-// COMPONENTS
-@forward './components/card';
-// TAILWIND CSS
+@use './utils/colors' as c;
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: c.$Light-grayish-blue;
+  min-height: 100vh;
+}
+
+main {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.card1 {
+  background-color: c.$Moderate-violet;
+}
+
+.card2 {
+  background-color: c.$Very-dark-grayish-blue;
+}
+
+.card3,
+.card5 {
+  background-color: c.$White;
+  color: c.$Very-dark-grayish-blue;
+}
+
+.card4 {
+  background-color: c.$Very-dark-blackish-blue;
+}
