@@ -15,11 +15,9 @@
 body {
   background-color: c.$Light-grayish-blue;
   min-height: 100vh;
-}
-
-main {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card1 {

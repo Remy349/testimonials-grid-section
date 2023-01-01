@@ -13,7 +13,7 @@ export const CardHeader = ({ img, name }) => {
 }
 
 export const CardText = ({ text }) => {
-  return <p className='font-semibold mb-4'>{text}</p>
+  return <p className='font-semibold text-xl mb-4'>{text}</p>
 }
 
 export const CardTestimonial = ({ testimonial }) => {
